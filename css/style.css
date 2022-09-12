@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Poppins:ital,wght@0,400;0,600;1,200&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    font-family: 'Abril Fatface', cursive;
+    background: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)),  url(../images/catWithSunglasses.jpg) no-repeat center center;
+    background-size: cover;
+    padding-top: 20%;
+    padding-bottom: 20%;
+    display: flex;
+    justify-content: center;
+}
+
+.spacer{
+    aspect-ratio: 900/300;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.layer1{
+    background-image: url(../images/wavestop.svg);
+    margin-top: -25%;
+}
+
+.layer2{
+    background-image: url(../images/wavesbottom.svg);
+    margin-bottom: -20%;
+}
+
+h1{
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    letter-spacing: 1px;
+    font-size: 2.5rem;
+}
+
+h2{
+    font-family: 'Poppins';
+}
+
+h3{
+    font-family: 'Poppins';
+    font-style: italic;
+}
+
+.avatar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+    margin-bottom: 50px;
+}
+
+.bg{
+    background-image: url(../images/avatar.png);
+    height: 100px;
+    width: 100px;
+    background-size: 100px;
+    background-repeat: no-repeat;
+    border-radius: 100px;
+    margin-bottom: 20px;
+}
+
+.text{
+    margin-top: 10%;
+}
+
+article{
+    max-width: 50%;
+    margin-left: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+p{
+    font-family: 'Poppins';
+
+}
+
+img{
+    padding-top: 30px;
+    padding-bottom: 12%;
+    max-width: 100%;
+    height: auto;
+}
+
+
